@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const BitcoinIndex = () => {
+const BitcoinIndex = ({ currency="AUD" }) => {
     let [price, setPrice] = useState(0)
 
     // Mount and update
